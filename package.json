@@ -1,0 +1,34 @@
+{
+  "name": "svcli",
+  "version": "0.1.0",
+  "description": "A command-line tool for string validation (IMEI, BTC, Email, Alphanumeric, etc.)",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "node tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foundation-alpha/svcli.git"
+  },
+  "keywords": [
+    "string",
+    "validation",
+    "cli",
+    "imei",
+    "btc",
+    "email",
+    "credit-card"
+  ],
+  "author": "Foundation Alpha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/foundation-alpha/svcli/issues"
+  },
+  "homepage": "https://github.com/foundation-alpha/svcli#readme",
+  "dependencies": {
+    "command-line-args": "^5.2.1",
+    "validator": "^13.7.0"
+  },
+  "type": "module"
+}
