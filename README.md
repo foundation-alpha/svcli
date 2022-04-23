@@ -2,7 +2,7 @@
 A command-line tool for quick string validation (i.e. IMEI, BTC, Email, Alphanumeric, etc.)
 
 ## How-to Install
-npm install -g svcli
+npm install -g @foundation_alpha/svcli
 
 ## How-to Use
 
